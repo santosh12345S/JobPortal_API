@@ -173,6 +173,10 @@
     <Compile Include="Migrations\202010071324130_CreateTables.designer.cs">
       <DependentUpon>202010071324130_CreateTables.cs</DependentUpon>
     </Compile>
+    <Compile Include="Migrations\202010071415403_UpdatedJobDetails.cs" />
+    <Compile Include="Migrations\202010071415403_UpdatedJobDetails.designer.cs">
+      <DependentUpon>202010071415403_UpdatedJobDetails.cs</DependentUpon>
+    </Compile>
     <Compile Include="Migrations\Configuration.cs" />
     <Compile Include="Models\JobDetails.cs" />
     <Compile Include="Models\Registration.cs" />
@@ -265,6 +269,9 @@
   <ItemGroup>
     <EmbeddedResource Include="Migrations\202010071324130_CreateTables.resx">
       <DependentUpon>202010071324130_CreateTables.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\202010071415403_UpdatedJobDetails.resx">
+      <DependentUpon>202010071415403_UpdatedJobDetails.cs</DependentUpon>
     </EmbeddedResource>
   </ItemGroup>
   <PropertyGroup>
